@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A0CCB0F32D325BA6009DBBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CCB0DA2D325BA3009DBBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CCB0E12D325BA3009DBBBD;
+			remoteInfo = Seppan;
+		};
+		A0CCB0FD2D325BA6009DBBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CCB0DA2D325BA3009DBBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CCB0E12D325BA3009DBBBD;
+			remoteInfo = Seppan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0CCB0E22D325BA3009DBBBD /* Seppan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seppan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CCB0F22D325BA6009DBBBD /* SeppanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeppanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CCB0FC2D325BA6009DBBBD /* SeppanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeppanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A0CCB0E42D325BA3009DBBBD /* Seppan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Seppan;
+			sourceTree = "<group>";
+		};
+		A0CCB0F52D325BA6009DBBBD /* SeppanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SeppanTests;
+			sourceTree = "<group>";
+		};
+		A0CCB0FF2D325BA6009DBBBD /* SeppanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SeppanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CCB0DF2D325BA3009DBBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CCB0EF2D325BA6009DBBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CCB0F92D325BA6009DBBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CCB0D92D325BA3009DBBBD = {
+			isa = PBXGroup;
+			children = (
+				A0CCB0E42D325BA3009DBBBD /* Seppan */,
+				A0CCB0F52D325BA6009DBBBD /* SeppanTests */,
+				A0CCB0FF2D325BA6009DBBBD /* SeppanUITests */,
+				A0CCB0E32D325BA3009DBBBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CCB0E32D325BA3009DBBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CCB0E22D325BA3009DBBBD /* Seppan.app */,
+				A0CCB0F22D325BA6009DBBBD /* SeppanTests.xctest */,
+				A0CCB0FC2D325BA6009DBBBD /* SeppanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CCB0E12D325BA3009DBBBD /* Seppan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CCB1062D325BA6009DBBBD /* Build configuration list for PBXNativeTarget "Seppan" */;
+			buildPhases = (
+				A0CCB0DE2D325BA3009DBBBD /* Sources */,
+				A0CCB0DF2D325BA3009DBBBD /* Frameworks */,
+				A0CCB0E02D325BA3009DBBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A0CCB0E42D325BA3009DBBBD /* Seppan */,
+			);
+			name = Seppan;
+			packageProductDependencies = (
+			);
+			productName = Seppan;
+			productReference = A0CCB0E22D325BA3009DBBBD /* Seppan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CCB0F12D325BA6009DBBBD /* SeppanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CCB1092D325BA6009DBBBD /* Build configuration list for PBXNativeTarget "SeppanTests" */;
+			buildPhases = (
+				A0CCB0EE2D325BA6009DBBBD /* Sources */,
+				A0CCB0EF2D325BA6009DBBBD /* Frameworks */,
+				A0CCB0F02D325BA6009DBBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CCB0F42D325BA6009DBBBD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0CCB0F52D325BA6009DBBBD /* SeppanTests */,
+			);
+			name = SeppanTests;
+			packageProductDependencies = (
+			);
+			productName = SeppanTests;
+			productReference = A0CCB0F22D325BA6009DBBBD /* SeppanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CCB0FB2D325BA6009DBBBD /* SeppanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CCB10C2D325BA6009DBBBD /* Build configuration list for PBXNativeTarget "SeppanUITests" */;
+			buildPhases = (
+				A0CCB0F82D325BA6009DBBBD /* Sources */,
+				A0CCB0F92D325BA6009DBBBD /* Frameworks */,
+				A0CCB0FA2D325BA6009DBBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CCB0FE2D325BA6009DBBBD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0CCB0FF2D325BA6009DBBBD /* SeppanUITests */,
+			);
+			name = SeppanUITests;
+			packageProductDependencies = (
+			);
+			productName = SeppanUITests;
+			productReference = A0CCB0FC2D325BA6009DBBBD /* SeppanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CCB0DA2D325BA3009DBBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A0CCB0E12D325BA3009DBBBD = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A0CCB0F12D325BA6009DBBBD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A0CCB0E12D325BA3009DBBBD;
+					};
+					A0CCB0FB2D325BA6009DBBBD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A0CCB0E12D325BA3009DBBBD;
+					};
+				};
+			};
+			buildConfigurationList = A0CCB0DD2D325BA3009DBBBD /* Build configuration list for PBXProject "Seppan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CCB0D92D325BA3009DBBBD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A0CCB0E32D325BA3009DBBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CCB0E12D325BA3009DBBBD /* Seppan */,
+				A0CCB0F12D325BA6009DBBBD /* SeppanTests */,
+				A0CCB0FB2D325BA6009DBBBD /* SeppanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CCB0E02D325BA3009DBBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CCB0F02D325BA6009DBBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CCB0FA2D325BA6009DBBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CCB0DE2D325BA3009DBBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CCB0EE2D325BA6009DBBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CCB0F82D325BA6009DBBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CCB0F42D325BA6009DBBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CCB0E12D325BA3009DBBBD /* Seppan */;
+			targetProxy = A0CCB0F32D325BA6009DBBBD /* PBXContainerItemProxy */;
+		};
+		A0CCB0FE2D325BA6009DBBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CCB0E12D325BA3009DBBBD /* Seppan */;
+			targetProxy = A0CCB0FD2D325BA6009DBBBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0CCB1042D325BA6009DBBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0CCB1052D325BA6009DBBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CCB1072D325BA6009DBBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Seppan/Preview Content\"";
+				DEVELOPMENT_TEAM = XCAHYBH783;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komiya3460.Seppan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CCB1082D325BA6009DBBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Seppan/Preview Content\"";
+				DEVELOPMENT_TEAM = XCAHYBH783;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komiya3460.Seppan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0CCB10A2D325BA6009DBBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCAHYBH783;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komiya3460.SeppanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seppan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seppan";
+			};
+			name = Debug;
+		};
+		A0CCB10B2D325BA6009DBBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCAHYBH783;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komiya3460.SeppanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seppan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seppan";
+			};
+			name = Release;
+		};
+		A0CCB10D2D325BA6009DBBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCAHYBH783;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komiya3460.SeppanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seppan;
+			};
+			name = Debug;
+		};
+		A0CCB10E2D325BA6009DBBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCAHYBH783;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Komiya3460.SeppanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seppan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CCB0DD2D325BA3009DBBBD /* Build configuration list for PBXProject "Seppan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CCB1042D325BA6009DBBBD /* Debug */,
+				A0CCB1052D325BA6009DBBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CCB1062D325BA6009DBBBD /* Build configuration list for PBXNativeTarget "Seppan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CCB1072D325BA6009DBBBD /* Debug */,
+				A0CCB1082D325BA6009DBBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CCB1092D325BA6009DBBBD /* Build configuration list for PBXNativeTarget "SeppanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CCB10A2D325BA6009DBBBD /* Debug */,
+				A0CCB10B2D325BA6009DBBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CCB10C2D325BA6009DBBBD /* Build configuration list for PBXNativeTarget "SeppanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CCB10D2D325BA6009DBBBD /* Debug */,
+				A0CCB10E2D325BA6009DBBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CCB0DA2D325BA3009DBBBD /* Project object */;
+}
